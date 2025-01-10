@@ -22,7 +22,8 @@ sudo sed -i 's/^SELINUX=.*/SELINUX=permissive/' /etc/selinux/config
 sudo setenforce 0
 
 # Remove the default Nginx configuration
-sudo rm /etc/nginx/conf.d/default.conf
+sudo mv /etc/nginx/conf.d/default.conf /etc/nginx/conf.d/default.conf.bak
+
 
 # Clone GitHub Repo
 
