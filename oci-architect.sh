@@ -27,7 +27,7 @@ sudo mv /etc/nginx/conf.d/default.conf /etc/nginx/conf.d/default.conf.bak
 
 # Clone GitHub Repo
 
-APP_DIR="/git/myapp"
+APP_DIR="/git/oci-architect"
 
 sudo mkdir -p "$(dirname "APP_DIR")"
 sudo chown $USER:$USER "$(dirname "$APP_DIR")"
