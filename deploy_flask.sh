@@ -6,7 +6,7 @@ echo "Setting up Flask application with Nginx..."
 # Install Python and Flask dependencies
 echo "Installing Python and Flask dependencies..."
 sudo dnf install python3 python3-pip -y
-pip3 install flask gunicorn
+sudo pip3 install flask gunicorn
 
 # Create directory for the Flask app
 echo "Creating directory for Flask app..."
